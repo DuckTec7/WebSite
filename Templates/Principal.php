@@ -5,6 +5,7 @@
 	<title>DuckTec</title>
 </head>
 <body>
+	<?php include_once("../includes/cabecera.php"); ?> 
 <?php echo "probando php";  ?>
 </body>
 </html>
