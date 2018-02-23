@@ -7,11 +7,22 @@
 </head>
 <body>
 	<?php include_once("../includes/cabecera.php"); ?> 
-<?php echo "probando php";  ?>
-<ul id="carousel">
-	<li><img width="100" height="100" alt="" src="../img/Duck.jpg" />1</li>
-	<li><img width="100" height="100" alt="" src="../img/Duck.jpg" />2</li>
-	<li><img width="100" height="100" alt="" src="../img/Duck.jpg" />3</li>
-</ul>
+	<?php echo "probando php";  ?>
+
+
+	<body> 
+	    <h2>Tecnologias</h2> 
+	     <div class="content-all"> 
+	         <div class="content-carrousel"> 
+	             <figure><img src="../img/Duck.jpg"></figure> 
+	             <figure><img src="../img/Duck.jpg"></figure> 
+	             <figure><img src="../img/Duck.jpg"></figure> 
+	             <figure><img src="../img/Duck.jpg"></figure> 
+	         </div> 
+	     </div> 
+	</body> 
+	
+
+
 </body>
 </html>
