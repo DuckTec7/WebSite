@@ -10,3 +10,6 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="../js/bootstrap.min.js"></script>
+
+<!-- Custom CSS -->
+<link href="../css/style.css" rel="stylesheet">
