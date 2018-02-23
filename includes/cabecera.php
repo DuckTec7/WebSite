@@ -25,7 +25,7 @@
     }
 </style>
 
-<nav class="navbar navbar-static-top" style="background: darkgray;">
+<nav class="navbar navbar-static-top" style="background: #34495e; color: white;">
   <div style="width: 100%; display: inline-flex;">
     <a class="col-md-4" style="margin-top:  0.5%;">
       <img class="logo" alt="Brand" src="../img/Duck.jpg">
@@ -37,6 +37,20 @@
   </div>
       
 </nav>
+
+<ul class="menu cf">
+  <li><a href="">QUIENES SOMOS</a></li>
+  <li>
+    <a href="">CONTACTENOS</a>
+    <ul class="submenu">
+      <li><a href="">Submenu item</a></li>
+      <li><a href="">Submenu item</a></li>
+      <li><a href="">Submenu item</a></li>
+      <li><a href="">Submenu item</a></li>
+    </ul>     
+  </li>
+  <li><a href="">PORTAFOLIO</a></li>
+</ul>
 
 <script>
 var f = new Date();
