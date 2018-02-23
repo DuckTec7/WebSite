@@ -1,7 +1,6 @@
 <!-- Navigation -->
 <style>
     .logo {
-      margin-top: -5px;
       margin-right: -10px;
       height: 100px;
     }
@@ -15,16 +14,21 @@
     }
 </style>
 
-<div style="background: darkgray;">
-<nav class="navbar navbar-static-top" >
-    <div class="container-fluid">
-    <div class="navbar-header">
-    
+<nav class="navbar navbar-static-top" style="background: darkgray;">
+  <div>
+    <div>
       <a class="navbar-brand" href="#">
         <img class="logo" alt="Brand" src="../img/Duck.jpg">
       </a>
-
     </div>
+    <div id="fecha" >
+      
     </div>
+  </div>
+      
 </nav>
-</div>
+
+<script>
+var f = new Date();
+document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+</script>
